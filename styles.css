@@ -1,1 +1,79 @@
-/*  your css code here. If applicable */
+ body {
+        background-color: #f6f6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Align items to the top */
+      }
+
+      .left {
+        width: 450px;
+        margin-top: 70px;
+        display: inline-block;
+        text-align: center; /* Center align content */
+      }
+
+      .left img {
+        width: 450px;
+        /* background-color: rebeccapurple;  */
+        /* Adjust size as needed */
+      }
+
+      .right {
+        margin-left: 20px; /* Space between left and right sections */
+      }
+
+      form {
+        display: flex;
+        width: 300px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #ccc;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+      }
+
+      button[type="submit"] {
+        background-color: #1877f2;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        width: 100%; /* Take up full width */
+        color: white;
+        cursor: pointer;
+      }
+
+      a {
+        text-decoration: none; /* Remove underline */
+        color: #1877f2;
+      }
+
+      .signup {
+        background-color: #42b72a;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+        margin-top: 10px; /* Space from form */
+      }
+
+      .signup:hover,
+      button[type="submit"]:hover {
+        opacity: 0.5; /* Hover effect */
+      }
